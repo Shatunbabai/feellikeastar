@@ -1,602 +1,671 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="uk">
 
 <head>
-    <meta charset="UTF-8">
-    <meta content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0" name="viewport" />
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-    <title>Like a Star</title>
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link href="stylesheet/styles.css" rel="stylesheet">
-    <link href="stylesheet/media.css" rel="stylesheet">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0" name="viewport" />
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>Like a Star - Впроваджуємо трендові вебтехнології та створюємо сайти</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link href="stylesheet/styles.css" rel="stylesheet">
+  <link href="stylesheet/media.css" rel="stylesheet">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 
-    <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
-    <script type="text/javascript" src="js/stats.min.js"></script>
-    <script type="text/javascript" src="js/gsap.min.js"></script>
+  <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+  <script type="text/javascript" src="js/stats.min.js"></script>
+  <script type="text/javascript" src="js/gsap.min.js"></script>
+  <meta name="description"
+    content="Ми створюємо бренд, який витримає випробування часом та зможе представляти компанію впродовж років">
+
+  <meta property="og:url" content="https://shatunbabai.github.io/feellikeastar/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Like a Star - Впроваджуємо трендові вебтехнології та створюємо сайти">
+  <meta property="og:description"
+    content="Ми створюємо бренд, який витримає випробування часом та зможе представляти компанію впродовж років">
+  <meta property="og:image" content="https://shatunbabai.github.io/feellikeastar/assets/img/command-img1.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="twitter:domain" content="shatunbabai.github.io/feellikeastar/">
+  <meta property="twitter:url" content="https://shatunbabai.github.io/feellikeastar/">
+  <meta name="twitter:title" content="Like a Star - Впроваджуємо трендові вебтехнології та створюємо сайти">
+  <meta name="twitter:description"
+    content="Ми створюємо бренд, який витримає випробування часом та зможе представляти компанію впродовж років">
+  <meta name="twitter:image"
+    content="https://static.tildacdn.com/tild3330-3830-4634-b533-666664343635/Frame_339717.png">
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image"
+    content="https://static.tildacdn.com/tild3330-3830-4634-b533-666664343635/Frame_339717.png" />
+
+  <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Corporation",
+          "name": "Like a Star",
+          "alternateName": "Feel like a Star",
+          "url": "https://shatunbabai.github.io/feellikeastar/",
+          "logo": "https://shatunbabai.github.io/feellikeastar/assets/img/logo.webp",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+380951234567",
+            "contactType": "customer service",
+            "contactOption": "TollFree",
+            "areaServed": "UA",
+            "availableLanguage": "Ukrainian"
+          },
+          "sameAs": "https://shatunbabai.github.io/feellikeastar/"
+        }
+        </script>
 </head>
 
 <body>
-    <div class="body-block">
-        <header class="header-block dark-container">
-            <div class="descMenu main-container">
-                <div class="logo">
-                    <a href="#"><img alt="logo" src="assets/img/logo.webp" class="logo-desc"></a>
-                </div>
-
-                <div class="nav-block">
-                    <div class="nav-header">
-                        <nav class="header-menu-navigation white-text-color" id="menu">
-                            <a class="scroll lang nav-link" href="#about_us" key="about">Про нас</a>
-                            <a class="scroll lang nav-link" href="#services" key="services">Послуги</a>
-                            <a class="scroll lang" href="#vacancies" key="vacancies">Вакансії</a>
-                        </nav>
-                    </div>
-
-                    <div class="language-header">
-                        <ul class="lang-navigation lang-navigation-white-color">
-                            <li>
-                                <a class="header-lang lang translate enLang noActive" key="en" id="en">Анг</a>
-                            </li>
-                            <li>
-                                <a class="header-lang lang translate ruLang" key="ru" id="ru">Укр</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="nav-button-block">
-                        <a class="link-hover" href="#contacts">
-                            <div class="flex-contacts-block">
-                                <div class="scroll lang  btn-text-color" key="contacts">ЗВ'ЯЗАТИСЯ</div>
-                                <div class="btn-point"></div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="window">
-                <div class="header">
-                    <div class="flex-mob-wrapper">
-                        <div class="logo-block">
-                            <a class="logo-link logo-desc" href="#">
-                                <img src="assets/img/logo.webp" class="tablet-logo" alt="Logo">
-                            </a>
-                        </div>
-                        <div class="burger-container">
-                            <div id="burger bar-dark-bg">
-                                <div class="innerBurger"><img class="menu-img" src="assets/icons/menu.svg"></div>
-                                <div class="innerBurger innerBurger-close" style="display: none"><img class="cross-img" src="assets/icons/cross.svg">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="burger-content-block">
-
-                        <ul class="menu nav">
-                            <li class="menu-item"><a class="lang scroll mob-menu-item" href="#about_us" key="about">Про нас</a></li>
-                            <li class="menu-item"><a class="lang mob-menu-item" href="#services" key="services">Послуги</a></li>
-                            <li class="menu-item"><a class="lang mob-menu-item" href="#vacancies" key="vacancies">Вакансії</a>
-                            </li>
-                            <li class="menu-item"><a class="lang mob-menu-item" href="#contacts" key="contacts">ЗВ'ЯЗАТИСЯ</a></li>
-                        </ul>
-                        <div class="lang-block-mob lang-navigation">
-                            <ul class="lang-navigation lang-navigation-white-color">
-                                <li>
-                                    <a class="header-lang lang translate enLang enLangMob noActive" key="en" id="en">Анг</a>
-                                </li>
-                                <li>
-                                    <a class="header-lang lang translate ruLang" key="ru" id="ru">Укр</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-
-
-        <section class="dark-container">
-            <div class="main-container content-main-block content-main-block-tablet">
-                <div class="main-container-title">
-                    <span class="main-pre-title">/ Like a star</span>
-                    <h1 class="main-title lang" key="main-title-lang">
-                        Неймовірні бізнес-рішення
-                    </h1>
-                    <p class="main-title-description lang" key="main-description-lang">Втілюємо у життя амбітні проєкти, змінюючи ваші уявлення про компанії.
-                    </p>
-                    <a class="btn-link" href="#services">
-                        <div class="button-block main-button-block">
-                            <div class="button circle">
-                            </div>
-                            <span class="btn-text btn-main lang" key="main-btn-lang">Дізнатися більше</span>
-                        </div>
-                    </a>
-
-                </div>
-
-
-                <div class="main-container-image">
-                    <canvas class="illustration" id="canvasOne" width="800" height="520">
-                    </canvas>
-                </div>
-            </div>
-        </section>
-
-
-        <section id="about_us">
-            <div class="main-container">
-                <hr class="dividers-line dividers-about-us">
-            </div>
-            <div class="main-container about-company-block animatable fadeInUp">
-                <div>
-                    <h2 class="section-title title-black lang" key="about-title-lang">
-                        Про компанію
-                    </h2>
-                    <span class="after-title"></span>
-                </div>
-                <div>
-                    <div class="about-company-description">
-                        <p class="lang" key="about-description-lang1">Команда професіоналів, націлена на революційні зміни у реалізації проєктів</p>
-                        <br>
-                        <p class="lang" key="about-description-lang2">Ми в захваті від можливостей створення якісних бізнес-рішень. Завжди є найкращий метод для просування послуг вашої компанії і ми згенеруємо його.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="counters-block-wrapper animatable fadeInUp">
-                <div class="counters-block animatable fadeInUp">
-                    <div>
-                        <h3 class="counters-title lang" key="counters-title-lang">За 5 років роботи ми накопичили значний управлінський та креативний досвід, сформували нові відділи, зібрали круті команди, впровадили нові методики.</h3>
-                    </div>
-
-                    <div class="counter-block">
-                        <div class="counter counter-dynamic">
-                            <div class="counter-block-first">
-                                <div class="number-style">
-                                    <span class="number1" data-max="5">0</span>
-                                </div>
-                                <div>
-                                    <p class="counter-text lang" key="counter-text1-lang">Років досвіду на ринку</p>
-                                </div>
-                                <span class="after-about-company"></span>
-                            </div>
-                        </div>
-
-                        <div class="counter counter-dynamic">
-                            <div class="counter-block-second">
-                                <div class="number-style">
-                                    <span class="number2" data-max="50">15</span>
-                                    <span class="number-style">+</span>
-                                </div>
-                                <div>
-                                    <p class="counter-text lang" key="counter-text2-lang">Фултайм фахівців</p>
-                                </div>
-                                <span class="after-about-company"></span>
-                            </div>
-                        </div>
-
-                        <div class="counter counter-dynamic">
-                            <div class="counter-block-third">
-                                <div class="number-style">
-                                    <span class="number3" data-max="150">100</span>
-                                    <span class="number-style">+</span>
-                                </div>
-                                <div>
-                                    <p class="counter-text lang" key="counter-text3-lang">Реалізованих проєктів</p>
-                                </div>
-                                <span class="after-about-company"></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        <section class="main-container-advantage light-container" id="advantages">
-            <div class="advantages-block animatable fadeInUp">
-                <div class="advantages-block-title">
-                    <h3 class="section-title title-black lang" key="advantages-title-lang">Наші цінності</h3>
-                    <span class="after-title"></span>
-                </div>
-                <div class="advantages-content">
-                    <div class="advantages-content-information">
-                        <ul class="advantages-list">
-                            <li class="list-item">
-                                <div class="item-counter">
-                                    <span class="item-number">/01</span>
-                                </div>
-                                <div class="item-content-block">
-                                    <h4 class="item-title lang" key="advantages-item-title1-lang">Професіоналізм</h4>
-                                    <p class="item-description lang" key="advantages-description1-lang">Ми любимо те, що робимо. Не зупиняємся на досягнутому, щодня вдосконалюємо свої навички.</p>
-                                </div>
-                            </li>
-
-                            <li class="list-item">
-                                <div class="item-counter">
-                                    <span class="item-number">/02</span>
-                                </div>
-                                <div class="item-content-block">
-                                    <h4 class="item-title lang" key="advantages-item-title2-lang">Ґрунтовність</h4>
-                                    <p class="item-description lang" key="advantages-description2-lang">Ми розробляємо унікальну стратегію під кожен бізнес задля досягнення бажаних результатів.</p>
-                                </div>
-                            </li>
-
-                            <li class="list-item">
-                                <div class="item-counter">
-                                    <span class="item-number">/03</span>
-                                </div>
-                                <div class="item-content-block">
-                                    <h4 class="item-title lang" key="advantages-item-title3-lang">Відповідальність</h4>
-                                    <p class="item-description lang" key="advantages-description3-lang">Ми з любов'ю ставимося до кожного проєкту та генеруємо неймовірні бізнес-рішення для кожного клієнта.</p>
-                                </div>
-                            </li>
-
-                            <li class="list-item">
-                                <div class="item-counter">
-                                    <span class="item-number">/04</span>
-                                </div>
-                                <div class="item-content-block">
-                                    <h4 class="item-title lang" key="advantages-item-title4-lang">Прозорість</h4>
-                                    <p class="item-description lang" key="advantages-description4-lang">Відкритість та чесність дозволяє нам зберегти довіру наших клієнтів та покращити репутацію компанії</p>
-                                </div>
-                            </li>
-
-                            <li class="list-item">
-                                <div class="item-counter">
-                                    <span class="item-number">/05</span>
-                                </div>
-                                <div class="item-content-block">
-                                    <h4 class="item-title lang" key="advantages-item-title5-lang">Оперативність</h4>
-                                    <p class="item-description lang" key="advantages-description5-lang">Ми не боїмося дедлайнів, ми їх випереджаємо.</p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        <section class="dark-container" id="services">
-            <div class="main-container">
-                <div class="services-block">
-                    <div class="services-block-title animatable fadeInUp">
-                        <h3 class="section-title title-white lang" key="services-title-lang">Чим ми займаємось?</h3>
-                        <span class="after-title"></span>
-                    </div>
-                    <div class="services-cards-block">
-                        <div class="services-card animatable fadeInUp" id="ticker1">
-                            <div class="card-ticker-wrapper card-ticker1">
-                                <div class="inner">
-                                    <p class="card-ticker">UI/UX</p>
-                                </div>
-                            </div>
-                            <div class="services-card-content">
-                                <span class="services-card-number">01</span>
-                                <h3 class="services-card-title lang" key="services-card-title1-lang">UI/UX дизайн</h3>
-                                <p class="services-card-description lang" key="services-description1-lang">Поєднуємо технології, візуальну естетику та бізнес-цілі, створюємо дизайн, що працює.</p>
-                            </div>
-                        </div>
-
-                        <div class="services-card animatable fadeInUp" id="ticker2">
-                            <div class="card-ticker-wrapper card-ticker2">
-                                <div class="inner">
-                                    <p class="card-ticker">branding</p>
-                                </div>
-                            </div>
-                            <div class="services-card-content">
-                                <span class="services-card-number">02</span>
-                                <h3 class="services-card-title lang" key="services-card-title2-lang">Брендинг</h3>
-                                <p class="services-card-description lang" key="services-description2-lang">Ми створюємо бренд, який витримає випробування часом та зможе представляти компанію впродовж років</p>
-                            </div>
-                        </div>
-
-                        <div class="services-card animatable fadeInUp" id="ticker3">
-                            <div class="card-ticker-wrapper card-ticker3">
-                                <div class="inner">
-                                    <p class="card-ticker">web development</p>
-                                </div>
-                            </div>
-                            <div class="services-card-content">
-                                <span class="services-card-number">03</span>
-                                <h3 class="services-card-title lang" key="services-card-title3-lang">Web-розробка</h3>
-                                <p class="services-card-description lang" key="services-description3-lang">Впроваджуємо трендові вебтехнології та створюємо сайти, які відповідають потребам ЦА.</p>
-                            </div>
-                        </div>
-
-                        <div class="services-card animatable fadeInUp" id="ticker4">
-                            <div class="card-ticker-wrapper card-ticker4">
-                                <div class="inner">
-                                    <p class="card-ticker">seo & smm</p>
-                                </div>
-                            </div>
-                            <div class="services-card-content">
-                                <span class="services-card-number">04</span>
-                                <h3 class="services-card-title">SEO та SMM</h3>
-                                <p class="services-card-description lang" key="services-description4-lang">Ефективно та креативно оптимізуємо пошукові системи та соцмережі для залучення нових клієнтів.</p>
-                            </div>
-                        </div>
-
-                        <div class="services-card animatable fadeInUp" id="ticker5">
-                            <div class="card-ticker-wrapper card-ticker5">
-                                <div class="inner">
-                                    <p class="card-ticker">ppc</p>
-                                </div>
-                            </div>
-                            <div class="services-card-content">
-                                <span class="services-card-number">05</span>
-                                <h3 class="services-card-title">PPC</h3>
-                                <p class="services-card-description lang" key="services-description5-lang">Збільшуємо кількість лідів для компаній і перетворюємо потенційних клієнтів на реальних, орієнтуючись на результат.</p>
-                            </div>
-                        </div>
-
-                        <div class="services-card animatable fadeInUp" id="ticker6">
-                            <div class="card-ticker-wrapper card-ticker6">
-                                <div class="inner">
-                                    <p class="card-ticker">media</p>
-                                </div>
-                            </div>
-                            <div class="services-card-content">
-                                <span class="services-card-number">06</span>
-                                <h3 class="services-card-title">Media Buying</h3>
-                                <p class="services-card-description lang" key="services-description6-lang">Шукаємо найкращі рішення для цільової аудиторії та бюджету бізнесу, які допоможуть успішно досягнути цілі компанії.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        <section class="main-container light-container">
-            <div class="command-block animatable fadeInUp">
-                <div class="command-content">
-                    <div class="command-block-title">
-                        <h3 class="section-title title-black lang" key="command-title-lang">Команда</h3>
-                        <span class="after-title"></span>
-                    </div>
-                    <p class="command-text command-text-first lang" key="command-text-first-lang">Like a star – це люди, якими рухає любов до своєї справи та внутрішня мотивація. Це нескінченна віра в команду, без якої нічого не вийшло б. Це невичерпне натхнення та бажання підкорювати нові вершини.</p>
-
-                    <div class="overlay-box command-img-first">
-                        <div class="command-content-image overlay-box-inner"></div>
-                        <img class="overlay-box-image" src="assets/img/command-img1.png" alt="command">
-                    </div>
-                </div>
-
-                <div class="command-content">
-                    <div class="overlay-box command-img-second">
-                        <div class="command-content-image overlay-box-inner"></div>
-                        <img class="overlay-box-image" src="assets/img/command-img2.png" alt="command">
-                    </div>
-
-                    <p class="command-text command-text-second lang" key="command-text-second-lang">Ми успішні у тому, що робимо і любимо кожну мить. Відкриті до всього нового та вміємо не лише працювати, а й відпочивати.</p>
-
-
-                    <div class="button-block">
-                        <a class="link-hover" href="#contacts">
-                            <div class="flex-contacts-block">
-                                <div class="scroll lang  btn-text-color" key="command-button-lang">СТАТИ ЧАСТИНОЮ КОМАНДИ
-                                </div>
-                                <div class="btn-point"></div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        <section class="main-container light-container" id="vacancies">
-            <div class="vacancies-block animatable fadeInUp">
-                <div class="vacancies-block-title">
-                    <h3 class="section-title title-black lang" key="vacancies-title-lang">Вакансії у Like a star</h3>
-                    <span class="after-title"></span>
-                </div>
-                <div class="vacancies-content">
-                    <ul class="vacancies-list">
-                        <li class="vacancies-item">
-                            <div class="item-counter">
-                                <span class="item-number">/ 01</span>
-                            </div>
-                            <div class="vacancies-position">
-                                <a href="./pages/affiliatemanager/">
-                                    <h4 class="vacancies-title">Affiliate manager</h4>
-                                </a>
-                                <div class="vacancies-description">
-                                    <p class="lang" key="location-lang">Київ, Україна</p>
-                                </div>
-                            </div>
-                            <div class="button-block">
-                                <a class="link-hover" href="./pages/affiliatemanager/" key="command-button-lang">
-                                    <div class="flex-contacts-block">
-                                        <div class="vacancies-button lang btn-text-color" key="main-btn-lang">ДІЗНАТИСЯ БІЛЬШЕ
-                                        </div>
-                                        <div class="btn-point"></div>
-                                    </div>
-                                </a>
-                            </div>
-                        </li>
-
-                        <li class="vacancies-item">
-                            <div class="item-counter">
-                                <span class="item-number">/ 02</span>
-                            </div>
-                            <div class="vacancies-position">
-                                <a href="./pages/mediabuyer">
-                                    <h4 class="vacancies-title horizontal-text">Middle Media Buyer (Facebook)</h4>
-                                </a>
-                                <div class="vacancies-description">
-                                    <p class="lang" key="location-lang">Київ, Україна</p>
-                                </div>
-                            </div>
-                            <div class="button-block">
-                                <a class="link-hover" href="./pages/mediabuyer" key="command-button-lang">
-                                    <div class="flex-contacts-block">
-                                        <div class="vacancies-button lang btn-text-color" key="main-btn-lang">ДІЗНАТИСЯ БІЛЬШЕ
-                                        </div>
-                                        <div class="btn-point"></div>
-                                    </div>
-                                </a>
-                            </div>
-                        </li>
-
-                        <li class="vacancies-item">
-                            <div class="item-counter">
-                                <span class="item-number">/ 03</span>
-                            </div>
-                            <div class="vacancies-position">
-                                <a href="./pages/farmer/">
-                                    <h4 class="vacancies-title lang" key="farmer-vacancy-lang">Фармер</h4>
-                                </a>
-                                <div class="vacancies-description">
-                                    <p class="lang" key="location-lang">Київ, Україна</p>
-                                </div>
-                            </div>
-                            <div class="button-block">
-                                <a class="link-hover" href="./pages/farmer/" key="command-button-lang">
-                                    <div class="flex-contacts-block">
-                                        <div class="vacancies-button lang btn-text-color" key="main-btn-lang">ДІЗНАТИСЯ БІЛЬШЕ
-                                        </div>
-                                        <div class="btn-point"></div>
-                                    </div>
-                                </a>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-
-        <section id="contacts">
-            <div class="contacts-block-wrapper">
-                <div class="contacts-block">
-                    <div class="form-block">
-                        <div class="form-block-title">
-                            <h3 class="section-title title-white form-tablet-title lang" key="contacts-title-lang">
-                                Почнемо співпрацювати?</h3>
-                            <span class="after-title"></span>
-                        </div>
-                        <div class="main-form alert alert-success">
-                            <form class="form" id="regForm" enctype="multipart/form-data">
-                                <input class="form-input lang" id="name" name="name" placeholder="Ім'я та прізвище" key="input-name-lang" type="text" required="" value="" onkeyup="checkEmpty()">
-
-                                <input class="form-input lang hidden-number" id="phone" key="input-phone-lang" placeholder="+380(__) ___ __ __" type="text" name="phone" required="" value="" onkeyup="checkEmpty()" />
-                                <span class="lang form-input-error" id="errorPhone" key="errorPhone" onchange="checkEmpty()" title="Неправильний формат телефону">Неправильний формат телефону</span>
-
-                                <input class="form-input lang form-control" id="email" key="input-email-lang" placeholder="Email" name="email" type="email" required="" value="" onkeyup="checkEmpty()" />
-                                <span class="lang form-input-error" id="errorEmail" key="errorEmail" onchange="checkEmpty()" title="Неправильний формат email">Неправильний формат email</span>
-
-                                <input class="form-input lang" key="input-message-lang" placeholder="Повідомлення" id="message" name="message" type="text" required="" value="" onkeyup="checkEmpty()" />
-
-                                <div class="button-block contact-button-block btn-link">
-                                    <a class="button circle"></a>
-                                    <button class="btn-text btn-contact lang trigger" id="submit" type="submit" key="contact-btn-lang" value="связаться" disabled="disabled">ЗВ'ЯЗАТИСЯ</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-
-                    <hr class="dividers-line dividers-contact">
-                    <div class="contact-info-block">
-                        <div class="contact-info-title">
-                            <h3 class="contact-title lang" key="contact-info-title-lang">Контакти</h3>
-                        </div>
-
-                        <div class="main-contact">
-                            <div class="cell">
-                                <div class="cell-title">
-                                    <span class="lang" key="cell-title-lang">/ ІНФО</span>
-                                </div>
-                                <div class="cell-text-content">
-                                    <div>
-                                        <a href="tel:+380951234567" class="cell-phone">+38 (095) 123 45 67 </a>
-                                    </div>
-                                    <div>
-                                        <a href="mailto:info@gmail.com" class="cell-email">info@gmail.com</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="location">
-                                <div class="location-title">
-                                    <span class="lang" key="location-title-lang">/ ЛОКАЦІЯ</span>
-                                </div>
-                                <div class="location-text-content">
-                                    <p class="location-text lang" key="location-lang">Київ, Україна</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        <section class="dark-container">
-            <footer class="footer main-container">
-                <div class="footer-block">
-                    <div class="footer-text">
-                        <p>Like a star © 2020</p>
-                    </div>
-                    <div class="footer-nav-block footer-nav-block-first">
-                        <a class="scroll lang" href="#about_us" key="about">Про нас</a>
-                        <a class="scroll lang" href="#services" key="services">Послуги</a>
-                    </div>
-                    <div class="footer-logo">
-                        <a href="#"><img alt="logo" src="assets/img/logo.webp" class="logo-footer"></a>
-                    </div>
-                    <div class=" footer-nav-block footer-nav-block-second">
-                        <a class="scroll lang" href="#vacancies" key="vacancies">Вакансії</a>
-                        <a class="scroll lang" href="#contacts" key="contacts">Контакти</a>
-                    </div>
-                    <div class="term-block">
-                        <p class="term">All Rights Reserved</p>
-                    </div>
-                </div>
-            </footer>
-        </section>
-
-
-        <div class="modal-wrapper">
-            <div class="modal">
-                <div class="close-modal">
-                    <div class="trigger trigger-container" onclick="resetForm()">
-                        <a class="btn-close"></a>
-                    </div>
-                </div>
-                <div class="modal-content">
-                    <img class="modal-logo" src="./assets/img/mob-vac-logo.svg">
-                    <h3 class="modal-text modal-prev-text lang" key="modal-thank-lang">Спасибо!</h3>
-                    <p class="modal-text modal-sub-text lang" key="modal-text-lang">Ваше сообщение успешно отправлено</p>
-                    <div class="button-block btn-link modal-btn-block">
-                        <a class="button circle"></a>
-                        <a class="btn-vacancy-text btn-contact lang" value="" key="modal-btn-lang" href="./">на главную
-                        </a>
-                    </div>
-                </div>
-            </div>
+  <div class="body-block">
+    <header class="header-block dark-container">
+      <div class="descMenu main-container">
+        <div class="logo">
+          <a href="#"><img alt="logo" src="assets/img/logo.webp" class="logo-desc"></a>
         </div>
-    </div>
 
-    <script src="js/switch-languages.js"></script>
-    <script src="js/burger-menu.js"></script>
-    <script src="js/modernizr-2.0.6.js"></script>
-    <script src="js/new-sphere.js"></script>
-    <script src="js/sphere.js"></script>
-    <script src="js/counter.js"></script>
-    <script src="js/card-ticker.js"></script>
-    <script src="js/image-overlay.js"></script>
-    <script src="js/fade-in-up-block.js"></script>
-    <script src="js/form-validation.js"></script>
-    <script src="js/create-form.js"></script>
-    <script src="js/show-modal-window.js"></script>
+        <div class="nav-block">
+          <div class="nav-header">
+            <nav class="header-menu-navigation white-text-color" id="menu">
+              <a class="scroll lang nav-link" href="#about_us" key="about">Про нас</a>
+              <a class="scroll lang nav-link" href="#services" key="services">Послуги</a>
+              <a class="scroll lang" href="#vacancies" key="vacancies">Вакансії</a>
+            </nav>
+          </div>
+
+          <div class="language-header">
+            <ul class="lang-navigation lang-navigation-white-color">
+              <li>
+                <a class="header-lang lang translate enLang noActive" key="en" id="en">Анг</a>
+              </li>
+              <li>
+                <a class="header-lang lang translate ruLang" key="ru" id="ru">Укр</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="nav-button-block">
+            <a class="link-hover" href="#contacts">
+              <div class="flex-contacts-block">
+                <div class="scroll lang  btn-text-color" key="contacts">ЗВ'ЯЗАТИСЯ</div>
+                <div class="btn-point"></div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="window">
+        <div class="header">
+          <div class="flex-mob-wrapper">
+            <div class="logo-block">
+              <a class="logo-link logo-desc" href="#">
+                <img src="assets/img/logo.webp" class="tablet-logo" alt="Logo">
+              </a>
+            </div>
+            <div class="burger-container">
+              <div id="burger bar-dark-bg">
+                <div class="innerBurger"><img class="menu-img" src="assets/icons/menu.svg"></div>
+                <div class="innerBurger innerBurger-close" style="display: none"><img class="cross-img"
+                    src="assets/icons/cross.svg">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="burger-content-block">
+
+            <ul class="menu nav">
+              <li class="menu-item"><a class="lang scroll mob-menu-item" href="#about_us" key="about">Про нас</a></li>
+              <li class="menu-item"><a class="lang mob-menu-item" href="#services" key="services">Послуги</a></li>
+              <li class="menu-item"><a class="lang mob-menu-item" href="#vacancies" key="vacancies">Вакансії</a>
+              </li>
+              <li class="menu-item"><a class="lang mob-menu-item" href="#contacts" key="contacts">ЗВ'ЯЗАТИСЯ</a></li>
+            </ul>
+            <div class="lang-block-mob lang-navigation">
+              <ul class="lang-navigation lang-navigation-white-color">
+                <li>
+                  <a class="header-lang lang translate enLang enLangMob noActive" key="en" id="en">Анг</a>
+                </li>
+                <li>
+                  <a class="header-lang lang translate ruLang" key="ru" id="ru">Укр</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+    <section class="dark-container">
+      <div class="main-container content-main-block content-main-block-tablet">
+        <div class="main-container-title">
+          <span class="main-pre-title">/ Like a star</span>
+          <h1 class="main-title lang" key="main-title-lang">
+            Неймовірні бізнес-рішення
+          </h1>
+          <p class="main-title-description lang" key="main-description-lang">Втілюємо у життя амбітні проєкти, змінюючи
+            ваші уявлення про компанії.
+          </p>
+          <a class="btn-link" href="#services">
+            <div class="button-block main-button-block">
+              <div class="button circle">
+              </div>
+              <span class="btn-text btn-main lang" key="main-btn-lang">Дізнатися більше</span>
+            </div>
+          </a>
+
+        </div>
+
+
+        <div class="main-container-image">
+          <canvas class="illustration" id="canvasOne" width="800" height="520">
+          </canvas>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="about_us">
+      <div class="main-container">
+        <hr class="dividers-line dividers-about-us">
+      </div>
+      <div class="main-container about-company-block animatable fadeInUp">
+        <div>
+          <h2 class="section-title title-black lang" key="about-title-lang">
+            Про компанію
+          </h2>
+          <span class="after-title"></span>
+        </div>
+        <div>
+          <div class="about-company-description">
+            <p class="lang" key="about-description-lang1">Команда професіоналів, націлена на революційні зміни у
+              реалізації проєктів</p>
+            <br>
+            <p class="lang" key="about-description-lang2">Ми в захваті від можливостей створення якісних бізнес-рішень.
+              Завжди є найкращий метод для просування послуг вашої компанії і ми згенеруємо його.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="counters-block-wrapper animatable fadeInUp">
+        <div class="counters-block animatable fadeInUp">
+          <div>
+            <h3 class="counters-title lang" key="counters-title-lang">За 5 років роботи ми накопичили значний
+              управлінський та креативний досвід, сформували нові відділи, зібрали круті команди, впровадили нові
+              методики.</h3>
+          </div>
+
+          <div class="counter-block">
+            <div class="counter counter-dynamic">
+              <div class="counter-block-first">
+                <div class="number-style">
+                  <span class="number1" data-max="5">0</span>
+                </div>
+                <div>
+                  <p class="counter-text lang" key="counter-text1-lang">Років досвіду на ринку</p>
+                </div>
+                <span class="after-about-company"></span>
+              </div>
+            </div>
+
+            <div class="counter counter-dynamic">
+              <div class="counter-block-second">
+                <div class="number-style">
+                  <span class="number2" data-max="50">15</span>
+                  <span class="number-style">+</span>
+                </div>
+                <div>
+                  <p class="counter-text lang" key="counter-text2-lang">Фултайм фахівців</p>
+                </div>
+                <span class="after-about-company"></span>
+              </div>
+            </div>
+
+            <div class="counter counter-dynamic">
+              <div class="counter-block-third">
+                <div class="number-style">
+                  <span class="number3" data-max="150">100</span>
+                  <span class="number-style">+</span>
+                </div>
+                <div>
+                  <p class="counter-text lang" key="counter-text3-lang">Реалізованих проєктів</p>
+                </div>
+                <span class="after-about-company"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="main-container-advantage light-container" id="advantages">
+      <div class="advantages-block animatable fadeInUp">
+        <div class="advantages-block-title">
+          <h3 class="section-title title-black lang" key="advantages-title-lang">Наші цінності</h3>
+          <span class="after-title"></span>
+        </div>
+        <div class="advantages-content">
+          <div class="advantages-content-information">
+            <ul class="advantages-list">
+              <li class="list-item">
+                <div class="item-counter">
+                  <span class="item-number">/01</span>
+                </div>
+                <div class="item-content-block">
+                  <h4 class="item-title lang" key="advantages-item-title1-lang">Професіоналізм</h4>
+                  <p class="item-description lang" key="advantages-description1-lang">Ми любимо те, що робимо. Не
+                    зупиняємся на досягнутому, щодня вдосконалюємо свої навички.</p>
+                </div>
+              </li>
+
+              <li class="list-item">
+                <div class="item-counter">
+                  <span class="item-number">/02</span>
+                </div>
+                <div class="item-content-block">
+                  <h4 class="item-title lang" key="advantages-item-title2-lang">Ґрунтовність</h4>
+                  <p class="item-description lang" key="advantages-description2-lang">Ми розробляємо унікальну стратегію
+                    під кожен бізнес задля досягнення бажаних результатів.</p>
+                </div>
+              </li>
+
+              <li class="list-item">
+                <div class="item-counter">
+                  <span class="item-number">/03</span>
+                </div>
+                <div class="item-content-block">
+                  <h4 class="item-title lang" key="advantages-item-title3-lang">Відповідальність</h4>
+                  <p class="item-description lang" key="advantages-description3-lang">Ми з любов'ю ставимося до кожного
+                    проєкту та генеруємо неймовірні бізнес-рішення для кожного клієнта.</p>
+                </div>
+              </li>
+
+              <li class="list-item">
+                <div class="item-counter">
+                  <span class="item-number">/04</span>
+                </div>
+                <div class="item-content-block">
+                  <h4 class="item-title lang" key="advantages-item-title4-lang">Прозорість</h4>
+                  <p class="item-description lang" key="advantages-description4-lang">Відкритість та чесність дозволяє
+                    нам зберегти довіру наших клієнтів та покращити репутацію компанії</p>
+                </div>
+              </li>
+
+              <li class="list-item">
+                <div class="item-counter">
+                  <span class="item-number">/05</span>
+                </div>
+                <div class="item-content-block">
+                  <h4 class="item-title lang" key="advantages-item-title5-lang">Оперативність</h4>
+                  <p class="item-description lang" key="advantages-description5-lang">Ми не боїмося дедлайнів, ми їх
+                    випереджаємо.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="dark-container" id="services">
+      <div class="main-container">
+        <div class="services-block">
+          <div class="services-block-title animatable fadeInUp">
+            <h3 class="section-title title-white lang" key="services-title-lang">Чим ми займаємось?</h3>
+            <span class="after-title"></span>
+          </div>
+          <div class="services-cards-block">
+            <div class="services-card animatable fadeInUp" id="ticker1">
+              <div class="card-ticker-wrapper card-ticker1">
+                <div class="inner">
+                  <p class="card-ticker">UI/UX</p>
+                </div>
+              </div>
+              <div class="services-card-content">
+                <span class="services-card-number">01</span>
+                <h3 class="services-card-title lang" key="services-card-title1-lang">UI/UX дизайн</h3>
+                <p class="services-card-description lang" key="services-description1-lang">Поєднуємо технології,
+                  візуальну естетику та бізнес-цілі, створюємо дизайн, що працює.</p>
+              </div>
+            </div>
+
+            <div class="services-card animatable fadeInUp" id="ticker2">
+              <div class="card-ticker-wrapper card-ticker2">
+                <div class="inner">
+                  <p class="card-ticker">branding</p>
+                </div>
+              </div>
+              <div class="services-card-content">
+                <span class="services-card-number">02</span>
+                <h3 class="services-card-title lang" key="services-card-title2-lang">Брендинг</h3>
+                <p class="services-card-description lang" key="services-description2-lang">Ми створюємо бренд, який
+                  витримає випробування часом та зможе представляти компанію впродовж років</p>
+              </div>
+            </div>
+
+            <div class="services-card animatable fadeInUp" id="ticker3">
+              <div class="card-ticker-wrapper card-ticker3">
+                <div class="inner">
+                  <p class="card-ticker">web development</p>
+                </div>
+              </div>
+              <div class="services-card-content">
+                <span class="services-card-number">03</span>
+                <h3 class="services-card-title lang" key="services-card-title3-lang">Web-розробка</h3>
+                <p class="services-card-description lang" key="services-description3-lang">Впроваджуємо трендові
+                  вебтехнології та створюємо сайти, які відповідають потребам ЦА.</p>
+              </div>
+            </div>
+
+            <div class="services-card animatable fadeInUp" id="ticker4">
+              <div class="card-ticker-wrapper card-ticker4">
+                <div class="inner">
+                  <p class="card-ticker">seo & smm</p>
+                </div>
+              </div>
+              <div class="services-card-content">
+                <span class="services-card-number">04</span>
+                <h3 class="services-card-title">SEO та SMM</h3>
+                <p class="services-card-description lang" key="services-description4-lang">Ефективно та креативно
+                  оптимізуємо пошукові системи та соцмережі для залучення нових клієнтів.</p>
+              </div>
+            </div>
+
+            <div class="services-card animatable fadeInUp" id="ticker5">
+              <div class="card-ticker-wrapper card-ticker5">
+                <div class="inner">
+                  <p class="card-ticker">ppc</p>
+                </div>
+              </div>
+              <div class="services-card-content">
+                <span class="services-card-number">05</span>
+                <h3 class="services-card-title">PPC</h3>
+                <p class="services-card-description lang" key="services-description5-lang">Збільшуємо кількість лідів
+                  для компаній і перетворюємо потенційних клієнтів на реальних, орієнтуючись на результат.</p>
+              </div>
+            </div>
+
+            <div class="services-card animatable fadeInUp" id="ticker6">
+              <div class="card-ticker-wrapper card-ticker6">
+                <div class="inner">
+                  <p class="card-ticker">media</p>
+                </div>
+              </div>
+              <div class="services-card-content">
+                <span class="services-card-number">06</span>
+                <h3 class="services-card-title">Media Buying</h3>
+                <p class="services-card-description lang" key="services-description6-lang">Шукаємо найкращі рішення для
+                  цільової аудиторії та бюджету бізнесу, які допоможуть успішно досягнути цілі компанії.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="main-container light-container">
+      <div class="command-block animatable fadeInUp">
+        <div class="command-content">
+          <div class="command-block-title">
+            <h3 class="section-title title-black lang" key="command-title-lang">Команда</h3>
+            <span class="after-title"></span>
+          </div>
+          <p class="command-text command-text-first lang" key="command-text-first-lang">Like a star – це люди, якими
+            рухає любов до своєї справи та внутрішня мотивація. Це нескінченна віра в команду, без якої нічого не вийшло
+            б. Це невичерпне натхнення та бажання підкорювати нові вершини.</p>
+
+          <div class="overlay-box command-img-first">
+            <div class="command-content-image overlay-box-inner"></div>
+            <img class="overlay-box-image" src="assets/img/command-img1.png" alt="command">
+          </div>
+        </div>
+
+        <div class="command-content">
+          <div class="overlay-box command-img-second">
+            <div class="command-content-image overlay-box-inner"></div>
+            <img class="overlay-box-image" src="assets/img/command-img2.png" alt="command">
+          </div>
+
+          <p class="command-text command-text-second lang" key="command-text-second-lang">Ми успішні у тому, що робимо і
+            любимо кожну мить. Відкриті до всього нового та вміємо не лише працювати, а й відпочивати.</p>
+
+
+          <div class="button-block">
+            <a class="link-hover" href="#contacts">
+              <div class="flex-contacts-block">
+                <div class="scroll lang  btn-text-color" key="command-button-lang">СТАТИ ЧАСТИНОЮ КОМАНДИ
+                </div>
+                <div class="btn-point"></div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="main-container light-container" id="vacancies">
+      <div class="vacancies-block animatable fadeInUp">
+        <div class="vacancies-block-title">
+          <h3 class="section-title title-black lang" key="vacancies-title-lang">Вакансії у Like a star</h3>
+          <span class="after-title"></span>
+        </div>
+        <div class="vacancies-content">
+          <ul class="vacancies-list">
+            <li class="vacancies-item">
+              <div class="item-counter">
+                <span class="item-number">/ 01</span>
+              </div>
+              <div class="vacancies-position">
+                <a href="./pages/affiliatemanager/">
+                  <h4 class="vacancies-title">Affiliate manager</h4>
+                </a>
+                <div class="vacancies-description">
+                  <p class="lang" key="location-lang">Київ, Україна</p>
+                </div>
+              </div>
+              <div class="button-block">
+                <a class="link-hover" href="./pages/affiliatemanager/" key="command-button-lang">
+                  <div class="flex-contacts-block">
+                    <div class="vacancies-button lang btn-text-color" key="main-btn-lang">ДІЗНАТИСЯ БІЛЬШЕ
+                    </div>
+                    <div class="btn-point"></div>
+                  </div>
+                </a>
+              </div>
+            </li>
+
+            <li class="vacancies-item">
+              <div class="item-counter">
+                <span class="item-number">/ 02</span>
+              </div>
+              <div class="vacancies-position">
+                <a href="./pages/mediabuyer">
+                  <h4 class="vacancies-title horizontal-text">Middle Media Buyer (Facebook)</h4>
+                </a>
+                <div class="vacancies-description">
+                  <p class="lang" key="location-lang">Київ, Україна</p>
+                </div>
+              </div>
+              <div class="button-block">
+                <a class="link-hover" href="./pages/mediabuyer" key="command-button-lang">
+                  <div class="flex-contacts-block">
+                    <div class="vacancies-button lang btn-text-color" key="main-btn-lang">ДІЗНАТИСЯ БІЛЬШЕ
+                    </div>
+                    <div class="btn-point"></div>
+                  </div>
+                </a>
+              </div>
+            </li>
+
+            <li class="vacancies-item">
+              <div class="item-counter">
+                <span class="item-number">/ 03</span>
+              </div>
+              <div class="vacancies-position">
+                <a href="./pages/farmer/">
+                  <h4 class="vacancies-title lang" key="farmer-vacancy-lang">Фармер</h4>
+                </a>
+                <div class="vacancies-description">
+                  <p class="lang" key="location-lang">Київ, Україна</p>
+                </div>
+              </div>
+              <div class="button-block">
+                <a class="link-hover" href="./pages/farmer/" key="command-button-lang">
+                  <div class="flex-contacts-block">
+                    <div class="vacancies-button lang btn-text-color" key="main-btn-lang">ДІЗНАТИСЯ БІЛЬШЕ
+                    </div>
+                    <div class="btn-point"></div>
+                  </div>
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="contacts">
+      <div class="contacts-block-wrapper">
+        <div class="contacts-block">
+          <div class="form-block">
+            <div class="form-block-title">
+              <h3 class="section-title title-white form-tablet-title lang" key="contacts-title-lang">
+                Почнемо співпрацювати?</h3>
+              <span class="after-title"></span>
+            </div>
+            <div class="main-form alert alert-success">
+              <form class="form" id="regForm" enctype="multipart/form-data">
+                <input class="form-input lang" id="name" name="name" placeholder="Ім'я та прізвище"
+                  key="input-name-lang" type="text" required="" value="" onkeyup="checkEmpty()">
+
+                <input class="form-input lang hidden-number" id="phone" key="input-phone-lang"
+                  placeholder="+380(__) ___ __ __" type="text" name="phone" required="" value=""
+                  onkeyup="checkEmpty()" />
+                <span class="lang form-input-error" id="errorPhone" key="errorPhone" onchange="checkEmpty()"
+                  title="Неправильний формат телефону">Неправильний формат телефону</span>
+
+                <input class="form-input lang form-control" id="email" key="input-email-lang" placeholder="Email"
+                  name="email" type="email" required="" value="" onkeyup="checkEmpty()" />
+                <span class="lang form-input-error" id="errorEmail" key="errorEmail" onchange="checkEmpty()"
+                  title="Неправильний формат email">Неправильний формат email</span>
+
+                <input class="form-input lang" key="input-message-lang" placeholder="Повідомлення" id="message"
+                  name="message" type="text" required="" value="" onkeyup="checkEmpty()" />
+
+                <div class="button-block contact-button-block btn-link">
+                  <a class="button circle"></a>
+                  <button class="btn-text btn-contact lang trigger" id="submit" type="submit" key="contact-btn-lang"
+                    value="связаться" disabled="disabled">ЗВ'ЯЗАТИСЯ</button>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <hr class="dividers-line dividers-contact">
+          <div class="contact-info-block">
+            <div class="contact-info-title">
+              <h3 class="contact-title lang" key="contact-info-title-lang">Контакти</h3>
+            </div>
+
+            <div class="main-contact">
+              <div class="cell">
+                <div class="cell-title">
+                  <span class="lang" key="cell-title-lang">/ ІНФО</span>
+                </div>
+                <div class="cell-text-content">
+                  <div>
+                    <a href="tel:+380951234567" class="cell-phone">+38 (095) 123 45 67 </a>
+                  </div>
+                  <div>
+                    <a href="mailto:info@gmail.com" class="cell-email">info@gmail.com</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="location">
+                <div class="location-title">
+                  <span class="lang" key="location-title-lang">/ ЛОКАЦІЯ</span>
+                </div>
+                <div class="location-text-content">
+                  <p class="location-text lang" key="location-lang">Київ, Україна</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="dark-container">
+      <footer class="footer main-container">
+        <div class="footer-block">
+          <div class="footer-text">
+            <p>Like a star © 2020</p>
+          </div>
+          <div class="footer-nav-block footer-nav-block-first">
+            <a class="scroll lang" href="#about_us" key="about">Про нас</a>
+            <a class="scroll lang" href="#services" key="services">Послуги</a>
+          </div>
+          <div class="footer-logo">
+            <a href="#"><img alt="logo" src="assets/img/logo.webp" class="logo-footer"></a>
+          </div>
+          <div class=" footer-nav-block footer-nav-block-second">
+            <a class="scroll lang" href="#vacancies" key="vacancies">Вакансії</a>
+            <a class="scroll lang" href="#contacts" key="contacts">Контакти</a>
+          </div>
+          <div class="term-block">
+            <p class="term">All Rights Reserved</p>
+          </div>
+        </div>
+      </footer>
+    </section>
+
+
+    <div class="modal-wrapper">
+      <div class="modal">
+        <div class="close-modal">
+          <div class="trigger trigger-container" onclick="resetForm()">
+            <a class="btn-close"></a>
+          </div>
+        </div>
+        <div class="modal-content">
+          <img class="modal-logo" src="./assets/img/mob-vac-logo.svg">
+          <h3 class="modal-text modal-prev-text lang" key="modal-thank-lang">Спасибо!</h3>
+          <p class="modal-text modal-sub-text lang" key="modal-text-lang">Ваше сообщение успешно отправлено</p>
+          <div class="button-block btn-link modal-btn-block">
+            <a class="button circle"></a>
+            <a class="btn-vacancy-text btn-contact lang" value="" key="modal-btn-lang" href="./">на главную
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/switch-languages.js"></script>
+  <script src="js/burger-menu.js"></script>
+  <script src="js/modernizr-2.0.6.js"></script>
+  <script src="js/new-sphere.js"></script>
+  <script src="js/sphere.js"></script>
+  <script src="js/counter.js"></script>
+  <script src="js/card-ticker.js"></script>
+  <script src="js/image-overlay.js"></script>
+  <script src="js/fade-in-up-block.js"></script>
+  <script src="js/form-validation.js"></script>
+  <script src="js/create-form.js"></script>
+  <script src="js/show-modal-window.js"></script>
 </body>
 
 </html>
