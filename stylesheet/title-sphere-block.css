@@ -1,0 +1,105 @@
+.content-main-block {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    padding-top: 155px;
+}
+
+.main-container-title {
+    width: 60%;
+    /*padding: 155px 0;*/
+    text-align: left;
+    position: relative;
+    z-index: 1;
+}
+
+.main-pre-title {
+    font-size: 14px;
+    line-height: 16px;
+    font-family: var(--gotham-book-font);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--accent-orange-color);
+}
+
+.main-title {
+    font-size: 64px;
+    line-height: 68px;
+    font-family: var(--gotham-medium-font);
+    color: var(--headings-white-color);
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.main-title-description {
+    max-width: 450px;
+    font-size: 16px;
+    line-height: 25px;
+    font-family: var(--gotham-book-font);
+    color: var(--paragraph-light-gray);
+    margin-bottom: 48px;
+}
+
+.button-block {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.main-button-block {
+    position: absolute;
+}
+
+.button:before {
+    border-radius: 60px;
+    border: 1px solid var(--accent-orange-color);
+    box-sizing: border-box;
+    box-shadow: 0 0 15px rgba(var(--headings-white-color), 0.15), 0 0 15px rgba(var(--headings-white-color), 0.15) inset;
+    content: "";
+    display: block;
+    height: 40px;
+    width: 40px;
+    transform: scale(1);
+    transition: all 300ms;
+}
+
+.btn-link:hover .button:before {
+    transform: scale(1.05);
+    background: var(--accent-orange-color);
+    z-index: 1;
+}
+
+.circle {
+    border: none;
+    cursor: pointer;
+    display: block;
+    transition: 0.5s;
+    background: transparent;
+}
+
+.circle:hover {
+    padding: -2px;
+}
+
+.btn-text {
+    border: none;
+    background: transparent;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: var(--gotham-medium-font);
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--headings-white-color);
+    z-index: 2;
+}
+
+.btn-main {
+    margin-left: -22px;
+}
+
+.main-container-image {
+    margin-top: -30px;
+}
+
+.illustration {}

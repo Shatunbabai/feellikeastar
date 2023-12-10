@@ -1,0 +1,93 @@
+.dividers-line {
+    border: none;
+    height: 1px;
+}
+
+.dividers-about-us {
+    background: var(--dividers-light-gray);
+    margin: 160px 0 60px 0;
+}
+
+.about-company-block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.section-title {
+    font-family: var(--gotham-medium-font);
+    text-align: left;
+    font-size: 40px;
+    line-height: 42px;
+    margin-bottom: 25px;
+}
+
+.title-black {
+    color: var(--headings-black-color);
+}
+
+.after-title {
+    display: block;
+    content: "";
+    width: 68px;
+    height: 1px;
+    background: var(--accent-orange-color);
+}
+
+.about-company-description {
+    font-size: 16px;
+    text-align: left;
+    max-width: 390px;
+    line-height: 25px;
+    font-family: var(--gotham-book-font);
+    color: var(--paragraph-dark-gray);
+}
+
+.counters-block-wrapper {
+    margin-right: 150px;
+    background-color: var(--accent-orange-color);
+}
+
+.counters-block {
+    padding: 96px 0 96px 150px;
+}
+
+.counters-title {
+    font-family: var(--gotham-medium-font);
+    color: var(--headings-white-color);
+    line-height: 32px;
+    font-size: 24px;
+    text-align: left;
+    width: 54%;
+    margin-bottom: 64px;
+}
+
+.counter-block {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    padding-right: 100px;
+}
+
+.number-style {
+    font-family: var(--gotham-medium-font);
+    font-size: 64px;
+    color: var(--headings-white-color);
+    margin-bottom: 8px;
+}
+
+.counter-text {
+    font-family: var(--gotham-book-font);
+    font-size: 16px;
+    color: var(--headings-white-color);
+    margin-bottom: 16px;
+}
+
+.after-about-company {
+    display: block;
+    content: "";
+    width: 260px;
+    height: 1px;
+    background: var(--bg-light-color);
+    opacity: 0.5;
+}

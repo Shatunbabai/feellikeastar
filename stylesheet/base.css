@@ -1,0 +1,36 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0 auto;
+    text-align: center;
+    background-color: var(--bg-light-color);
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+.main-container {
+    padding: 0 150px;
+}
+
+.main-container-advantage {
+    padding: 0 150px;
+}
+
+.dark-container {
+    background-color: var(--bg-dark-color);
+}
+
+.light-container {
+    background-color: var(--bg-light-color);
+}

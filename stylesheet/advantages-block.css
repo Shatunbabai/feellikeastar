@@ -1,0 +1,67 @@
+.advantages-block {
+    display: flex;
+    justify-content: space-between;
+    padding: 160px 0;
+}
+
+.advantages-content {
+    width: 60%;
+}
+
+.list-item {
+    display: flex;
+    border-bottom: 1px solid var(--dividers-light-gray);
+    padding: 24px 0;
+    transition: background .6s;
+}
+
+.list-item:hover {
+    transition-timing-function: ease-in-out;
+    cursor: pointer;
+    background: var(--accent-orange-color);
+    transition: 1s;
+}
+
+.list-item:hover span {
+    color: var(--headings-white-color);
+}
+
+.list-item:hover h4 {
+    color: var(--headings-white-color);
+    transition-timing-function: ease-in-out;
+    transition: 0.2s;
+}
+
+.list-item:hover p {
+    color: var(--headings-white-color);
+    transition-timing-function: ease-in-out;
+    transition: 0.2s;
+}
+
+.item-counter {
+    font-family: var(--gotham-book-font);
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--accent-orange-color);
+    margin-right: 51px;
+    margin-left: 15px;
+}
+
+.item-content-block {
+    text-align: left;
+}
+
+.item-title {
+    font-family: var(--gotham-medium-font);
+    font-size: 24px;
+    color: var(--headings-black-color);
+    margin-bottom: 16px;
+}
+
+.item-description {
+    line-height: 25px;
+    font-family: var(--gotham-book-font);
+    font-size: 16px;
+    color: var(--paragraph-dark-gray);
+}

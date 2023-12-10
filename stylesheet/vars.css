@@ -1,0 +1,17 @@
+@import "fonts.css";
+:root {
+    --headings-black-color: #080808;
+    --headings-white-color: #FFFFFF;
+    --paragraph-dark-gray: #4F4F4F;
+    --paragraph-light-gray: #828282;
+    --accent-orange-color: #FF6B29;
+    --bg-dark-color: #111111;
+    --bg-light-color: #FFFFFF;
+    --bg-light-gray-vacancy: #f5f5f5;
+    --dividers-light-gray: #DEDEDE;
+    --bg-dark-gray-cards: #272727;
+    --error: #EB5757;
+    --gotham-book-font: 'Gotham-Book', sans-serif;
+    --gotham-medium-font: 'Gotham-Medium', sans-serif;
+    --gotham-bold-font: 'Gotham-Bold', sans-serif;
+}

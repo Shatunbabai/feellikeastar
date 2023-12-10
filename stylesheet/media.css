@@ -1,0 +1,508 @@
+/*/*/
+
+/*media for header and footer with mobile menu*/
+
+@media screen and (max-width: 1200px) {
+    .descMenu {
+        display: none;
+    }
+    .window {
+        display: block;
+    }
+    .main-logo-burger {
+        width: 120px;
+    }
+    .mob-menu-item {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .main-logo-burger {
+        display: none;
+    }
+    .tablet-logo {
+        max-width: 100px;
+    }
+    .flex-mob-wrapper {
+        padding: 0 50px;
+    }
+    .burger-menu-mobile {
+        display: none !important;
+    }
+    .burger-container {
+        margin-right: 0;
+    }
+    .footer-block {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 35px 0;
+        height: 100%;
+    }
+    .footer-nav-block {
+        display: block;
+        width: 150px;
+        font-family: var(--gotham-book-font);
+        font-size: 15px;
+        line-height: 16px;
+        color: var(--headings-white-color);
+    }
+    .footer-nav-block a {
+        display: block;
+        margin-bottom: 24px;
+    }
+    .footer-nav-block-second {
+        margin-bottom: 48px;
+    }
+    .footer-text,
+    .term-block {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .footer-logo {
+        order: 1;
+        margin-bottom: 50px;
+    }
+    .footer-nav-block-first {
+        order: 2;
+    }
+    .footer-nav-block-second {
+        order: 3;
+    }
+    .footer-text {
+        order: 4;
+    }
+    .term-block {
+        order: 5;
+    }
+}
+
+/*/*/
+
+/*media for large screen*/
+
+@media screen and (min-width: 1200px) {
+    .main-container,
+    .counters-block,
+    .contacts-block,
+    .main-container-advantage {
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+    .about-company-block {
+        margin-bottom: 120px;
+    }
+}
+
+@media screen and (max-width: 1368px) {
+    .illustration {
+        width: 100%;
+    }
+}
+
+/*/*/
+
+/*media for 768px tablet screen*/
+
+@media screen and (max-width: 1200px) {
+    .main-container {
+        padding: 0 50px;
+    }
+    .main-container-advantage {
+        padding: 0 50px;
+    }
+    .content-main-block {
+        display: grid;
+        justify-content: center;
+        padding-bottom: 80px;
+        height: 100%;
+    }
+    .main-container-title {
+        margin-top: -30px;
+    }
+    .main-title-description {
+        margin: auto;
+        margin-bottom: 60px;
+    }
+    .main-container-image {
+        order: 1;
+        padding: 0;
+    }
+    .illustration {
+        padding: 0;
+    }
+    .logo-link {
+        padding: 0;
+    }
+    .enLangMob {
+        margin-right: 24px;
+    }
+    .enLangMob,
+    .ruLang {
+        font-size: 24px;
+    }
+    .main-container-title {
+        /*padding: 0;*/
+        text-align: center;
+        width: auto;
+        order: 2;
+    }
+    .main-button-block {
+        display: inline-flex;
+        position: inherit;
+    }
+    .dividers-about-us {
+        margin-top: 120px;
+    }
+    .about-company-block {
+        margin-bottom: 48px;
+    }
+    .after-title {
+        margin-bottom: 48px;
+    }
+    .counters-block-wrapper {
+        margin-right: 0;
+    }
+    .counters-block {
+        padding: 72px 50px;
+    }
+    .counters-title {
+        width: 80%;
+    }
+    .counter {
+        padding-right: 30px;
+    }
+    .counter-text {
+        font-size: 14px;
+    }
+    .after-about-company {
+        width: 203px;
+    }
+    .advantages-block {
+        padding: 120px 0;
+        display: grid;
+    }
+    .advantages-content {
+        width: auto;
+    }
+    .services-block {
+        padding: 80px 0;
+    }
+    .services-card {
+        margin: 15px 10px;
+    }
+    .card-ticker-wrapper {
+        height: 240px;
+        margin: 0 auto;
+        padding: 42px 0 0 40px;
+    }
+    .card-ticker {
+        font-size: 130px;
+        line-height: 156px;
+    }
+    .services-card-title {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .command-block {
+        padding: 120px 0;
+    }
+    .command-content {
+        width: 47%;
+    }
+    .command-text-first {
+        padding-bottom: 48px;
+    }
+    .command-text-second {
+        padding: 48px 0 32px 0;
+    }
+    .vacancies-block {
+        padding-bottom: 120px;
+    }
+    .vacancies-position {
+        display: block;
+        margin-left: -150px;
+    }
+    .vacancies-title {
+        width: 250px;
+    }
+    .horizontal-text {
+        margin-left: 0;
+    }
+    .contacts-block {
+        padding: 80px 50px;
+    }
+    .contacts-block-wrapper {
+        margin-left: 0;
+    }
+    .form-block {
+        display: grid;
+        margin-bottom: 60px;
+    }
+    .contact-info-block {
+        display: block;
+        text-align: left;
+    }
+    .contact-info-title {
+        margin-bottom: 32px;
+    }
+    .main-contact {
+        justify-content: inherit;
+    }
+}
+
+/*/*/
+
+/*media for mobile screen*/
+
+@media screen and (min-width: 280px) and (max-width: 767px) {
+    .main-container {
+        padding: 0 20px;
+    }
+    .main-container-advantage {
+        padding: 0;
+    }
+    .flex-mob-wrapper {
+        margin-top: 15px;
+    }
+    .content-main-block {
+        height: 100vh;
+        align-items: center;
+    }
+    .main-title-description {
+        margin-bottom: 44px;
+    }
+    .main-container-image {
+        /*display: none;*/
+        margin-top: 40px;
+    }
+    .illustration {}
+    .flex-mob-wrapper {
+        padding: 0 10px;
+    }
+    .logo-link {
+        padding: 0 10px;
+    }
+    .enLangMob {
+        margin-right: 20px;
+    }
+    .mob-menu-item {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .main-container-title {}
+    .main-title {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .about-company-block {
+        display: block;
+        margin-bottom: 48px;
+    }
+    .dividers-about-us {
+        margin: 80px 0 32px 0;
+    }
+    .counters-title {
+        width: 100%;
+    }
+    .counters-block {
+        padding: 64px 20px;
+    }
+    .counter-block {
+        display: block;
+        padding: 0;
+    }
+    .counter {
+        padding-right: 0;
+        margin-bottom: 32px;
+    }
+    .counter-text {
+        font-size: 16px;
+    }
+    .after-about-company {
+        width: 100%;
+    }
+    .section-title {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .after-title {
+        margin-bottom: 40px;
+    }
+    .advantages-block {
+        padding: 80px 0;
+    }
+    .advantages-block-title {
+        padding: 0 20px;
+    }
+    .advantages-list {
+        text-align: left;
+    }
+    .list-item {
+        display: block;
+        padding: 20px;
+    }
+    .item-counter {
+        margin: 0 0 8px 0;
+    }
+    .card-ticker-wrapper {
+        max-width: 315px;
+        padding: 34px 0 34px 34px;
+    }
+    .services-card {
+        margin: 10px;
+    }
+    .services-card-content {
+        padding-bottom: 40px;
+    }
+    .command-block {
+        display: block;
+    }
+    .command-content {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .command-text-first {
+        padding: 0 0 48px 0;
+    }
+    .vacancies-item {
+        display: block;
+    }
+    .vacancies-position {
+        margin-left: 0;
+    }
+    .vacancies-title {
+        margin-bottom: 16px;
+    }
+    .vacancies-description {
+        margin-bottom: 24px;
+    }
+    .contacts-block {
+        padding: 64px 20px;
+    }
+    .form-tablet-title {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .contact-button-block {
+        display: inline-flex;
+        margin-bottom: 80px;
+    }
+    .main-contact {
+        display: block;
+    }
+    .cell {
+        margin-bottom: 32px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .card-ticker-wrapper {
+        max-width: 425px;
+    }
+}
+
+@media screen and (min-width: 687px) and (max-width: 950px) {
+    .card-ticker-wrapper {
+        max-width: 315px;
+    }
+}
+
+@media screen and (max-width: 686px) {
+    .services-cards-block {
+        display: block;
+    }
+    .card-ticker-wrapper {
+        max-width: 590px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .command-content {
+        position: relative;
+        width: 100%;
+        margin: 0;
+    }
+    .command-img-first,
+    .command-img-second {
+        display: none;
+    }
+    .overlay-box {
+        height: auto;
+    }
+}
+
+/*modal window media */
+
+@media screen and (min-width: 655px) and (max-width: 825px) {
+    .modal {
+        width: 600px;
+        margin-left: -300px;
+    }
+    .modal-content {
+        padding: 0;
+    }
+    .modal-logo {
+        margin-left: 30px;
+    }
+}
+
+@media screen and (min-width: 551px) and (max-width: 654px) {
+    .modal {
+        width: 530px;
+        margin-left: -265px;
+    }
+    .modal-content {
+        padding: 0;
+    }
+    .modal-logo {
+        margin-left: 30px;
+    }
+}
+
+@media screen and (min-width: 475px) and (max-width: 550px) {
+    .modal {
+        width: 435px;
+        height: 364px;
+        margin-left: -218px;
+    }
+    .modal-logo {
+        margin-left: 30px;
+    }
+    .modal-content {
+        padding: 0 20px 45px 20px;
+    }
+    .modal-sub-text {
+        margin-bottom: 35px;
+    }
+}
+
+@media screen and (max-width: 474px) {
+    .modal {
+        position: relative;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        margin-left: 0;
+    }
+    .modal-content {
+        padding: 80px 20px 45px 20px;
+    }
+    .modal-wrapper.open .modal {
+        margin-top: 0;
+        width: 100%;
+    }
+    .close-modal {
+        padding: 10px 20px 0 0;
+    }
+    .modal-logo {
+        margin-bottom: 60px;
+    }
+    .modal-prev-text {
+        margin-bottom: 20px;
+    }
+    .modal-btn-block {
+        position: absolute;
+        bottom: 8%;
+        left: 35%;
+    }
+}

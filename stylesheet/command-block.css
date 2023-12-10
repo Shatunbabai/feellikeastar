@@ -1,0 +1,50 @@
+.command-block {
+    display: flex;
+    justify-content: space-between;
+    padding: 160px 0;
+}
+
+.command-content {
+    width: 40%;
+    text-align: left;
+}
+
+.command-text {
+    font-family: var(--gotham-book-font);
+    font-size: 16px;
+    line-height: 25px;
+    color: var(--paragraph-dark-gray);
+}
+
+.command-text-first {
+    padding: 48px 0 72px 0;
+}
+
+.command-text-second {
+    padding: 72px 0 48px 0;
+}
+
+.overlay-box {
+    position: relative;
+    max-width: 450px;
+    height: 450px;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.overlay-box-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--accent-orange-color);
+    z-index: 2;
+    overflow: hidden;
+}
+
+.overlay-box-image {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}

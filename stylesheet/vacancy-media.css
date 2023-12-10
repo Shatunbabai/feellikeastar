@@ -1,0 +1,81 @@
+/*/*/
+
+/*media for 768px tablet screen*/
+
+@media screen and (max-width: 1200px) {
+    .vacancy-block {
+        display: block;
+    }
+    .vacancy-block-info,
+    .vacancy-description-block {
+        padding: 0 166px;
+        width: 100%;
+        height: auto;
+    }
+    .vacancy-block-info {
+        margin-right: 0;
+        margin-top: 70px;
+        position: static;
+        padding-top: 28px;
+        padding-bottom: 72px;
+    }
+    .vacancy-title-block {
+        text-align: center;
+    }
+    .block-to-main-page {
+        display: inline-flex;
+        margin-bottom: 28px;
+    }
+    .vac-after-title {
+        display: inline-block;
+        margin-bottom: 16px;
+    }
+    .vacancy-form {
+        padding: 80px 0;
+    }
+    .vac-form-block {
+        display: block;
+    }
+    .vac-btn-block {
+        justify-content: center;
+    }
+    .input-valid-block {
+        width: 100%;
+    }
+}
+
+/*/*/
+
+/*media for mobile screen*/
+
+@media screen and (min-width: 280px) and (max-width: 767px) {
+    .vac-tablet-logo {
+        max-width: 100px;
+    }
+    .vacancy-block-info,
+    .vacancy-description-block {
+        padding: 0 20px;
+    }
+    .vacancy-block-info {
+        padding: 28px 0 24px 0;
+    }
+    .block-to-main-page {
+        padding: 0;
+    }
+    .vac-btn-block {
+        justify-content: center;
+    }
+    .vacancy-description-block {
+        margin: 0;
+        padding-top: 40px;
+    }
+    .vacancy-text-block {
+        margin-bottom: 40px;
+    }
+    .vacancy-form {
+        padding: 40px 0 80px 0;
+    }
+    .vacancy-form-title {
+        text-align: center;
+    }
+}

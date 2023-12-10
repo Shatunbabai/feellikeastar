@@ -1,0 +1,31 @@
+.footer-block {
+    display: flex;
+    justify-content: space-between;
+    min-height: 150px;
+    align-items: center;
+}
+
+.footer-text,
+.term-block {
+    font-family: var(--gotham-book-font);
+    font-size: 16px;
+    color: var(--paragraph-light-gray);
+}
+
+.footer-nav-block-first,
+.footer-nav-block-second {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-nav-block a {
+    font-family: var(--gotham-medium-font);
+    font-size: 15px;
+    color: var(--headings-white-color);
+    padding: 0 30px;
+}
+
+.footer-nav-block a:hover {
+    color: var(--accent-orange-color);
+}

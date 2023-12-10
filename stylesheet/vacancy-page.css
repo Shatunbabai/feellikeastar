@@ -1,0 +1,222 @@
+.black-text-color a {
+    color: var(--headings-black-color);
+}
+
+.lang-navigation-black-color li {
+    color: var(--headings-black-color);
+}
+
+.vacancy-block {
+    display: flex;
+}
+
+.vacancy-container {
+    padding-left: 150px;
+}
+
+.vacancy-block-info {
+    background: var(--bg-light-gray-vacancy);
+    width: 42%;
+    max-height: 800px;
+    margin-right: 110px;
+    position: sticky;
+    top: 0;
+}
+
+.block-to-main-page {
+    display: flex;
+    padding: 52px 0 36px 0;
+}
+
+.block-to-main-page:hover {}
+
+.arrow-to-main-page {
+    background-image: url("../assets/icons/arrow-left.svg");
+    display: block;
+    width: 10px;
+    height: 15px;
+    margin-right: 16px;
+}
+
+.text-to-main-page {
+    font-family: var(--gotham-book-font);
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--accent-orange-color);
+}
+
+.vacancy-title-block {
+    text-align: left;
+}
+
+.vacancy-title {
+    font-family: var(--gotham-medium-font);
+    font-size: 32px;
+    line-height: 40px;
+    color: var(--headings-black-color);
+    margin-bottom: 24px;
+}
+
+.vac-after-title {
+    margin-bottom: 48px;
+}
+
+.vacancies-location {
+    font-family: var(--gotham-book-font);
+    font-size: 16px;
+    line-height: 25px;
+    color: var(--paragraph-dark-gray);
+}
+
+.vacancy-description-block {
+    width: 48%;
+    text-align: left;
+    padding-right: 150px;
+    margin-top: 80px;
+}
+
+.vacancy-text-block {
+    margin-bottom: 48px;
+}
+
+.vacancy-description-title {
+    font-family: var(--gotham-medium-font);
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--headings-black-color);
+    margin-bottom: 16px;
+}
+
+.vacancy-description-text {
+    font-family: var(--gotham-book-font);
+    font-size: 16px;
+    line-height: 25px;
+    color: var(--paragraph-dark-gray);
+}
+
+.description-list {
+    list-style-image: url("../assets/icons/btn-point.svg");
+}
+
+.description-list:last-child {
+    margin-bottom: 0;
+}
+
+.vacancy-item {
+    margin-bottom: 16px;
+    margin-left: 15px;
+}
+
+.vacancy-span {
+    margin-bottom: 16px;
+}
+
+.vacancy-form {
+    padding: 120px 0;
+}
+
+.vacancy-form-title {
+    font-family: var(--gotham-medium-font);
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--headings-black-color);
+    margin-bottom: 48px;
+}
+
+.vacancy-form-input {
+    width: 100%;
+    padding: 16px 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: var(--gotham-book-font);
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--paragraph-light-gray);
+    border-bottom: 1px solid var(--paragraph-light-gray);
+    margin-bottom: 48px;
+}
+
+.vacancy-form-input:focus {
+    color: var(--paragraph-light-gray);
+    border-bottom: 1px solid var(--dividers-light-gray);
+}
+
+.vacancy-form-input:valid {
+    color: var(--paragraph-dark-gray);
+    border-bottom: 1px solid var(--paragraph-light-gray);
+}
+
+.vac-invalid {
+    border-bottom: 1px solid var(--error);
+}
+
+.color-border-CV {
+    border-bottom: 1px solid var(--paragraph-light-gray) !important;
+}
+
+.form-input-error {
+    display: none;
+    position: absolute;
+    margin-top: -44px;
+    font-family: var(--gotham-book-font);
+    font-size: 16px;
+    line-height: 25px;
+    color: var(--error);
+    text-align: left;
+}
+
+.error-block {
+    display: block;
+}
+
+.input-valid-block {
+    width: 45%;
+}
+
+.btn-vacancy-text {
+    border: none;
+    background: transparent;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: var(--gotham-medium-font);
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--headings-black-color);
+    z-index: 2;
+}
+
+.vac-form-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-margin {
+    /*margin-right: 30px;*/
+}
+
+.cv-block {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.cv-pin {
+    content: "";
+    background-image: url("../assets/icons/pin.svg");
+    background-repeat: no-repeat;
+    display: block;
+    width: 27px;
+    height: 15px;
+    margin-top: 10px;
+}
+
+input[type='file'] {
+    opacity: 0;
+    width: 100%;
+    border: none;
+}

@@ -1,0 +1,21 @@
+/*
+   Import partials below
+*/
+
+@import "vars.css";
+@import "reset.css";
+@import "fonts.css";
+@import "base.css";
+@import "header.css";
+@import "title-sphere-block.css";
+@import "about-company-block.css";
+@import "advantages-block.css";
+@import "services-block.css";
+@import "command-block.css";
+@import "vacancies-block.css";
+@import "cooperation-block.css";
+@import "fade-in-up-scroll.css";
+@import "footer.css";
+@import "vacancy-page.css";
+@import "vacancy-media.css";
+@import "modal-window.css";

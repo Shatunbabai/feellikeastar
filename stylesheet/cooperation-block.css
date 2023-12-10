@@ -1,0 +1,122 @@
+.contacts-block {
+    padding: 120px 150px 120px 98px;
+}
+
+.contacts-block-wrapper {
+    margin-left: 150px;
+    background-color: var(--bg-dark-color);
+}
+
+.form-block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.form {
+    position: relative;
+}
+
+.form-input {
+    width: 100%;
+    padding: 16px 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: var(--gotham-book-font);
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--paragraph-light-gray);
+    border-bottom: 1px solid var(--paragraph-dark-gray);
+    background: var(--bg-dark-color);
+    margin-bottom: 48px;
+}
+
+.form-input:focus {
+    color: var(--headings-white-color);
+    border-bottom: 1px solid var(--dividers-light-gray);
+}
+
+.form-input:valid {
+    color: var(--headings-white-color);
+    border-bottom: 1px solid var(--dividers-light-gray);
+}
+
+.invalid {
+    color: var(--headings-white-color);
+    border-bottom: 1px solid var(--error);
+}
+
+.form-input-error {
+    display: none;
+    position: absolute;
+    margin-top: -44px;
+    font-family: var(--gotham-book-font);
+    font-size: 16px;
+    line-height: 25px;
+    color: var(--error);
+    text-align: left;
+}
+
+.error-block {
+    display: block;
+}
+
+.hidden-number::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.btn-contact {
+    margin-left: -46px;
+    cursor: pointer;
+}
+
+.contact-info-block {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0;
+}
+
+.dividers-contact {
+    background-color: var(--paragraph-dark-gray);
+}
+
+.contact-title {
+    font-family: var(--gotham-medium-font);
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--headings-white-color);
+}
+
+.main-contact {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    width: 60%;
+}
+
+.cell-title,
+.location-title {
+    font-family: var(--gotham-book-font);
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--accent-orange-color);
+    margin-bottom: 16px;
+}
+
+.cell-text-content,
+.location-text-content {
+    font-family: var(--gotham-book-font);
+    font-size: 16px;
+    line-height: 25px;
+    color: var(--paragraph-light-gray);
+}
+
+.cell-phone,
+.cell-email {
+    color: var(--paragraph-light-gray);
+}

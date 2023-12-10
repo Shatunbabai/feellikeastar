@@ -1,0 +1,103 @@
+.services-block {
+    padding: 120px 0;
+}
+
+.services-block-title {
+    margin-bottom: 60px;
+}
+
+.title-white {
+    color: var(--headings-white-color);
+}
+
+.services-cards-block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.services-card {
+    background: var(--bg-dark-gray-cards);
+    margin-right: 127px;
+    margin-bottom: 110px;
+}
+
+.services-card:hover {
+    cursor: pointer;
+    background: var(--bg-light-color);
+    transition: 1s;
+}
+
+.services-card:hover>.services-card-content .services-card-number {
+    color: var(--accent-orange-color);
+}
+
+.services-card:hover>.services-card-content .services-card-title {
+    color: var(--headings-black-color);
+}
+
+.services-card:hover>.services-card-content .services-card-description {
+    color: var(--paragraph-dark-gray);
+}
+
+.services-card:hover>.card-ticker-wrapper .inner .card-ticker {
+    color: var(--accent-orange-color);
+    text-shadow: 1px 0 0 var(--accent-orange-color), -1px 0 0 var(--accent-orange-color), 0 1px 0 var(--accent-orange-color), 0 -1px 0 var(--accent-orange-color);
+    transition: 1s;
+}
+
+.card-ticker-wrapper {
+    margin: 0 auto;
+    overflow: hidden;
+    max-width: 450px;
+    height: 280px;
+    white-space: nowrap;
+    padding: 80px 0 25px 100px;
+}
+
+.card-ticker {
+    font-family: var(--gotham-bold-font);
+    font-size: 160px;
+    line-height: 192px;
+    text-transform: uppercase;
+    color: var(--bg-dark-gray-cards);
+    text-shadow: 1px 0 0 var(--paragraph-light-gray), -1px 0 0 var(--paragraph-light-gray), 0 1px 0 var(--paragraph-light-gray), 0 -1px 0 var(--paragraph-light-gray);
+}
+
+.services-card-content {
+    text-align: left;
+    margin: 40px 24px;
+}
+
+.services-card-number {
+    display: block;
+    font-family: var(--gotham-book-font);
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--headings-white-color);
+    margin-bottom: 32px;
+}
+
+.services-card-title {
+    font-family: var(--gotham-medium-font);
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--headings-white-color);
+    margin-bottom: 16px;
+}
+
+.services-card-description {
+    font-family: var(--gotham-book-font);
+    font-size: 16px;
+    line-height: 25px;
+    color: var(--dividers-light-gray);
+}
+
+.card-ticker-wrapper,
+.services-card-content,
+.services-card-number,
+.services-card-title,
+.services-card-description {
+    pointer-events: none;
+}
